@@ -22,8 +22,8 @@ public class Main {
     byte i = 20;
 byte j = 8;
 int multiple2 = -b*c;
-float devide = multiple2/8f;
-float sum3 = i + devide;
+float divide = multiple2/8f;
+float sum3 = i + divide;
         System.out.println("c." + sum3);
 float x = 15/3;
 float y = x*2;
