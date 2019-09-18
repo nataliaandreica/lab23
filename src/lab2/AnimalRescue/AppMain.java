@@ -7,8 +7,10 @@ public class AppMain {
 
         System.out.println(odita.name);
         System.out.println(odita.color);
+
         System.out.println(odita.age);
         System.out.println(odita.gender);
+
         System.out.println(odita.weight);
 
 
