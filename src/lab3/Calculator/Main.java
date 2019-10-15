@@ -5,6 +5,6 @@ public class Main{
         int x = 4;
         int y = 5;
 LogicalOp op = new LogicalOp();
-op.verifyGreaterNumber(x,y);
+        System.out.println(op.verifyGreaterNumber(x,y));
     }
 }
