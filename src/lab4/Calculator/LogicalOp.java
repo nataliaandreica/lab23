@@ -1,4 +1,4 @@
-package lab3.Calculator;
+package lab4.Calculator;
 
 public class LogicalOp {
     public int verifyGreaterNumber(int first, int second) {
@@ -8,4 +8,14 @@ public class LogicalOp {
             return second;
         }
     }
+
+
+
+    public void printFromHundred(int number, int x) {
+        for (int i=number ; i >= x; i --){
+            System.out.println(i);
+        }
+
+    }
+
 }
