@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Media este: " + average(2,5,9));
         System.out.println("Catul este: " +divide1(5,3));
         System.out.println("Temperatura este: " + temperatura(80));
-        System.out.println("897 inch sunt "+ metrii(897)+" metrii");
+        System.out.println("897 inch sunt "+ metri(897)+" m");
     }
 
  /*   public static int sum(int first, int second) {
@@ -83,9 +83,9 @@ public class Main {
         float temperatura  = 5f/9f*(first-30);
         return temperatura;
         }
-        public static float metrii (float first){
-            float metrii = first/39.37f;
-            return metrii;
+        public static float metri (float first){
+            float metri = first/39.37f;
+            return metri;
         }
 }
 
