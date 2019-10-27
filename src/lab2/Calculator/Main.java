@@ -1,4 +1,4 @@
-package lab2;
+package lab2.Calculator;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
 

@@ -1,7 +1,22 @@
-package lab3.Calculator.AnimalRescue;
+package lab2.AnimalRescue;
 
 public class AppMain {
+
     public static void main(String[] args) {
+
+        Dog rex = new Dog();
+        System.out.println(rex.name);
+
+        rex.name = "Rex";
+
+        rex.bark();
+
+        Dog rexa = new Dog();
+//        rexa.name = "Rexa";
+        System.out.println(rexa.name);
+
+
+
         Cat odita = new Cat();
         odita.name = "Odita";
 
@@ -22,4 +37,5 @@ public class AppMain {
         sisi.name = "Sisi";
         System.out.println(sisi.name);
     }
+
 }

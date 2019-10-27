@@ -1,4 +1,4 @@
-package lab3.Calculator.AnimalRescue;
+package lab2.AnimalRescue;
 
 public class Cat {
     String color = "Gri";
