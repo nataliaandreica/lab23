@@ -1,4 +1,4 @@
-package lab2.AnimalRescue;
+package lab3.AnimalRescue;
 
 public class AppMain {
 
@@ -14,6 +14,7 @@ public class AppMain {
         Dog rexa = new Dog();
 //        rexa.name = "Rexa";
         System.out.println(rexa.name);
+
 
 
         Cat odita = new Cat();
@@ -35,25 +36,6 @@ public class AppMain {
         Cat sisi = new Cat();
         sisi.name = "Sisi";
         System.out.println(sisi.name);
-
-        Animal Animal = new Animal();
-        Animal.favouriteActivity = "Playing with the ball";
-        System.out.println(Animal.favouriteActivity);
-
-        AdoptiveOwner AdoptiveOwer = new AdoptiveOwner();
-        AdoptiveOwer.owner = "Popescu";
-        System.out.println(AdoptiveOwer.owner);
-
-        FoodForAnimals food = new FoodForAnimals();
-        food.price = 5.6f;
-        System.out.println(food.price);
-
-Activities activity = new Activities();
-activity.activity = "Running";
-        System.out.println(activity.activity);
-
-        Vet doctor = new Vet();
-        doctor.name = "Blaga";
-        System.out.println(doctor.name);
     }
+
 }
